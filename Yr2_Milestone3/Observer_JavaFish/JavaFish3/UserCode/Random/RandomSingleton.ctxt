@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RandomSingleton()
+comment0.text=\r\n\ RandomSingleton\ Constructor\r\n\r\n
+comment1.params=
+comment1.target=RandomSingleton\ getInstance()
+comment1.text=\r\n\ Method\ getInstance\r\n\r\n\ @return\ The\ return\ value\r\n
+comment2.params=
+comment2.target=double\ nextDouble()
+comment2.text=\r\n\ Method\ nextDouble\r\n\r\n\ @return\ The\ return\ value\r\n
+numComments=3

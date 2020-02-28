@@ -14,13 +14,15 @@ import Exceptions.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
+import UserCode.InputHandling.*;
+import UserCode.Random.RandomSingleton;
 /**
  * Simulation is the top-level class for the Aquarium simulation.
  * 
  * @author (Ryan Coles) and Marc Price
  * @version 0.6
  */
-public class Simulation
+public class Simulation implements IInputListener
 {
     // instance variables:
     // DECLARE a reference to the IWorld, call it '_world':
@@ -37,9 +39,14 @@ public class Simulation
     private final String textureJavaFish="textures/javaFish/JavaFish.png";
     private final String model="models/billboard/billboard.obj";
     private IFishBehaviour horizontalBehaviour;
-    private IDisplayObject javaFishDisplay;
+    //private IDisplayObject javaFishDisplay;
     private IUpdatableFactory _factory;
-    
+    // DECLARE a boolean that signals when a new lion is rqd, call it _newLion:
+    private boolean _newBubble = false;
+    // DECLARE a reference to the IInputPublisher, call it '_inputPublisher':
+    private IInputPublisher _inputPublisher;
+    // DECLARE an int array, to store any mouse input to, initialise it to {-1,-1}, call it _mouseVal:
+    private int[] _mouseVal = {-1,-1};
     public static void main()
     {
         Simulation sim=new Simulation();
@@ -61,41 +68,64 @@ public class Simulation
     {
         // _world:
         _world = ((IWorld)_factory.create(Core.class));
+        // _input:
+        _input = (IInput) _world;
         
-
+        // _inputPublisher:
+       // (INSTANTIATE):
+       _inputPublisher = ((IInputPublisher) _factory.create(MouseHandler.class));
+            
+       // (INITIALISE):
+       _inputPublisher.Initialise(_input);
     }
     catch(Exception e)
     {
         
     }
         
-        // _input:
-        _input = (IInput) _world;
+        
         // ADD _world implementation to _updatables:
         addEntity((IUpdatable) _world);
-        
+        addEntity((IUpdatable)_inputPublisher);
+        _inputPublisher.subscribe(this);
     }
 
     public void addEntity(IUpdatable entity)
     {
         _Updatables.add(entity);
     }
+    /**
+     * METHOD: handle an input event
+     * 
+     * @param data an array of integers containing the input data
+     * 
+     */
+    public void onInput(int ...data)
+    {
+        // SET _newLion to flag that a new lion needs to be spawned:
+        _newBubble = true;
+        
+        // SET _mouseVal to data:
+        _mouseVal = data;
+    }
+    
     public void Populate()
     {
-         try
-    {
+        try
+        {
        
+           
         IUpdatable javaFish = _factory.create(Swimmable.class);
         addEntity(javaFish);   
-        javaFishDisplay=displayableFactory.createDisplayObject(model,textureJavaFish,0.4);
+        IDisplayObject javaFishDisplay=displayableFactory.createDisplayObject(model,textureJavaFish,0.4);
         ((ISwimmable)javaFish).receiveJob(horizontalBehaviour);
-        ((ISpawnable)javaFish).spawn(_world, javaFishDisplay, new Vector3(2.0,2.0,1.0), new Vector3(0,-90,0));
-
-    }
-    catch(Exception e)
-    {
+        ((ISpawnable)javaFish).spawn(_world, javaFishDisplay, new Vector3(2.0,2.0,1.0), new Vector3(0, -90, 0));
+    
+}
+catch(Exception e)
+{
         
-    }
+}
         
     }
     /**
@@ -111,9 +141,9 @@ public class Simulation
         try
         {
             // ADD Objects to 3D world?:
+            // ADD lions when requested via mouse input...                
+                // CHECK if a new lion has been requested:
             Populate();
-            
-        
             // Start simulation loop:
             while (!endSim)
             {
@@ -128,8 +158,31 @@ public class Simulation
                 // UPDATE 3D objects and world...
                  for (IUpdatable u : _Updatables)
                     u.update();
-                
-                
+                    
+                    if (_newBubble)
+                    {
+               // RESET _newLion to false:
+               _newBubble = false;
+                    
+                // COMPUTE the position/orientation for the new lion from mouseVal:
+                Double posn[] = {_mouseVal[0]*0.0077, _mouseVal[1]*0.0077, 1.0};
+                Double angle[]= {0.0,90.0,0.0};
+                try
+                {
+        
+            // RESET _newLion to false:
+        
+                IUpdatable javaFish = _factory.create(Swimmable.class);
+                addEntity(javaFish);   
+                IDisplayObject javaFishDisplay=displayableFactory.createDisplayObject(model,textureJavaFish,0.4);
+                ((ISwimmable)javaFish).receiveJob(horizontalBehaviour);
+                ((ISpawnable)javaFish).spawn(_world, javaFishDisplay, new Vector3(posn[0], posn[1], posn[2]), new Vector3(angle[0], -90, angle[2]));
+            }
+            catch(Exception e)
+            {
+        
+            }
+        }
                 // UPDATE 3D World:
                 // Apply all updates to the environment.
                 // This must be called at the end of each pass through the simulation loop.
