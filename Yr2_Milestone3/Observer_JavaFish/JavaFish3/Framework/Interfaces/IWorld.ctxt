@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ create()
+comment0.text=\r\n\ METHOD\:\ create\ and\ initialise\ the\ 3D\ world.\r\n\r\n
+comment1.params=
+comment1.target=void\ destroy()
+comment1.text=\r\n\ METHOD\:\ destroy\ the\ 3D\ world.\r\n\ Although\ there\ is\ a\ garbage-collector\ in\ Java,\ the\ world\ has\ to\ be\ destroyed\ with\ 'destroy'\r\n\ in\ order\ to\ close-down\ your\ simulation-loop\ cleanly.\r\n\r\n
+numComments=2
