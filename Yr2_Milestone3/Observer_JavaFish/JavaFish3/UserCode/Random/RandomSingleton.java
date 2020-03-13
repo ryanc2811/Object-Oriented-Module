@@ -3,7 +3,6 @@ import java.util.Random;
 public class RandomSingleton {
     private static RandomSingleton instance;
     private Random rnd;
-
     /**
      * RandomSingleton Constructor
      *
@@ -29,7 +28,9 @@ public class RandomSingleton {
      *
      * @return The return value
      */
-    public double nextDouble() {
-         return rnd.nextDouble();
+    public double nextDouble(double minNum, double maxNum)
+    {
+         double randomDouble= minNum + rnd.nextDouble() * (maxNum - minNum);
+         return randomDouble;
     }
 }

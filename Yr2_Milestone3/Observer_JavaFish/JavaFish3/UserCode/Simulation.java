@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.ListIterator;
 import UserCode.InputHandling.*;
 import UserCode.Random.RandomSingleton;
+import java.util.Random;
 /**
  * Simulation is the top-level class for the Aquarium simulation.
  * 
@@ -40,8 +41,6 @@ public class Simulation implements IInputListener
     private final String textureJavaFish="textures/javaFish/JavaFish.png";
     private final String textureFishFood="textures/javaFish/FishFood.png";
     private final String model="models/billboard/billboard.obj";
-    
-    //private IDisplayObject javaFishDisplay;
     private IUpdatableFactory _factory;
     // DECLARE a boolean that signals when a new lion is rqd, call it _newLion:
     private boolean _clicked = false;
@@ -49,6 +48,7 @@ public class Simulation implements IInputListener
     private IInputPublisher _inputPublisher;
     // DECLARE an int array, to store any mouse input to, initialise it to {-1,-1}, call it _mouseVal:
     private int[] _mouseVal = {-1,-1};
+    private Random rnd;
     public static void main()
     {
         Simulation sim=new Simulation();
@@ -63,9 +63,8 @@ public class Simulation implements IInputListener
         // INITIALISE instance variables:
         _factory =new UpdatableFactory();
         _Updatables=new ArrayList<IUpdatable>();
-        
         displayableFactory=new DisplayableFactory();
-        
+        rnd = new Random();
     try
     {
         // _world:
@@ -84,8 +83,7 @@ public class Simulation implements IInputListener
     {
         
     }
-        
-        
+ 
         // ADD _world implementation to _updatables:
         addEntity((IUpdatable) _world);
         addEntity((IUpdatable)_inputPublisher);
@@ -110,7 +108,11 @@ public class Simulation implements IInputListener
         // SET _mouseVal to data:
         _mouseVal = data;
     }
-    
+    private double nextDouble(double minNum, double maxNum)
+    {
+         double randomDouble= minNum + rnd.nextDouble() * (maxNum - minNum);
+         return randomDouble;
+    }
     public void Populate()
     {
         try
@@ -120,9 +122,9 @@ public class Simulation implements IInputListener
         horizontalBehaviour=new horizontalMovement();
         IUpdatable javaFish = _factory.create(Swimmable.class);
         addEntity(javaFish);   
-        IDisplayObject javaFishDisplay=displayableFactory.createDisplayObject(model,textureJavaFish,0.4);
+        IDisplayObject javaFishDisplay=displayableFactory.createDisplayObject(model,textureJavaFish,0.15);
         ((ISwimmable)javaFish).receiveJob(horizontalBehaviour);
-        ((ISpawnable)javaFish).spawn(_world, javaFishDisplay, new Vector3(2.0,2.0,1.0), new Vector3(0, -90, 0));
+        ((ISpawnable)javaFish).spawn(_world, javaFishDisplay, new Vector3(nextDouble(2.0,8.0),nextDouble(2.0,7.0),1.0), new Vector3(0, -90, 0));
     
 }
 catch(Exception e)
