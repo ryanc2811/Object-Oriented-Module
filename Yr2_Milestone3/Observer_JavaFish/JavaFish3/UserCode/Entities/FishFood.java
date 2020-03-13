@@ -12,6 +12,9 @@ public class FishFood implements IUpdatable,ISpawnable
 {
     // instance variables - replace the example below with your own
     private IDisplayObject fishFood;
+    private double x;
+    private double y;
+    private double speed =0.005f;
     /**
      * Constructor for objects of class FishFood
      */
@@ -30,7 +33,8 @@ public class FishFood implements IUpdatable,ISpawnable
         
         // SET orientation of fish by rotating fish
         fishFood.orientation(Orientation);
-        
+        x=Position.getX();
+        y=Position.getY();
         //_fishBehaviour.setVectors(fishFood.position(),fishFood.orientation());
         
         // ADD to 3D world:
@@ -45,6 +49,7 @@ public class FishFood implements IUpdatable,ISpawnable
      */
     public void update()
     {
-        
+        y+=-speed;
+        fishFood.position(new Vector3(x,y,1));
     }
 }
