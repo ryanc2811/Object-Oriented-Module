@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BubbleHandler()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BubbleHandler\r\n
+comment1.params=Position
+comment1.target=void\ BubbleBlown(UserCode.Vector3)
+comment2.params=BL
+comment2.target=void\ Subscribe(IBubbleBlowListener)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=BL
+comment3.target=void\ Unsubscribe(IBubbleBlowListener)
+numComments=4

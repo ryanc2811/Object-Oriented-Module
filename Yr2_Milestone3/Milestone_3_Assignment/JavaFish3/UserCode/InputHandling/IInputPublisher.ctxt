@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=inputCapture
+comment0.target=void\ Initialise(Framework.Interfaces.IInput)
+comment0.text=\r\n\ METHOD\:\ Initialise.\r\n\ \r\n\ @param\ inputCapture\ the\ input\ capture\ source\ (normally\ via\ Env3D)\r\n
+comment1.params=l
+comment1.target=void\ subscribe(IInputListener)
+comment1.text=\r\n\ METHOD\:\ Subscribe\ a\ new\ listener\ for\ input\ events\r\n\r\n\ @param\ \ l\ \ \ a\ reference\ to\ the\ listener\ that\ is\ being\ subscribed\r\n
+comment2.params=l
+comment2.target=void\ unsubscribe(IInputListener)
+comment2.text=\r\n\ METHOD\:\ Unsubscribe\ a\ listener\r\n\r\n\ @param\ \ l\ \ \ a\ reference\ to\ the\ listener\ that\ is\ being\ unsubscribed\r\n
+numComments=3

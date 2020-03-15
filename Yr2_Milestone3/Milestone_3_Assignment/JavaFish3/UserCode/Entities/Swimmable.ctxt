@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Swimmable()
+comment1.params=world\ displayObject\ Position\ Orientation
+comment1.target=void\ spawn(Framework.Interfaces.IWorld,\ Framework.Interfaces.IDisplayObject,\ UserCode.Vector3,\ UserCode.Vector3)
+comment2.params=behaviour
+comment2.target=void\ receiveJob(UserCode.Behaviours.IFishBehaviour)
+comment3.params=BB
+comment3.target=void\ receiveBubbleBlower(UserCode.BubbleBlowing.BubbleBlower)
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+numComments=5

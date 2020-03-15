@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=world\ displayObject\ Position\ Orientation
+comment0.target=void\ spawn(Framework.Interfaces.IWorld,\ Framework.Interfaces.IDisplayObject,\ UserCode.Vector3,\ UserCode.Vector3)
+comment0.text=\r\n\ METHOD\:\ spawn\ the\ ISpawnable\ at\ the\ given\ position/orientation\r\n\ @param\ world\ IWorld\ representing\ the\ 3D\ world.\r\n\ @param\ Position\ Vector3\ giving\ the\ position\ of\ the\ entity\r\n\ @param\ Orientation\ Vector3\ giving\ the\ orientation\ of\ the\ entity\r\n
+numComments=1

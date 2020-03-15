@@ -1,14 +1,16 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Vector3()
-comment1.params=x\ y\ z
-comment1.target=Vector3(double,\ double,\ double)
+comment0.target=Vector3
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Vector3\ here.\r\n\ \r\n\ @author\ (Ryan\ Coles)\ \r\n\ @version\ (1.0)\r\n
+comment1.params=
+comment1.target=Vector3()
 comment2.params=x\ y\ z
-comment2.target=void\ setValue(double,\ double,\ double)
-comment3.params=
-comment3.target=double\ getX()
+comment2.target=Vector3(double,\ double,\ double)
+comment3.params=x\ y\ z
+comment3.target=void\ setValue(double,\ double,\ double)
 comment4.params=
-comment4.target=double\ getY()
+comment4.target=double\ getX()
 comment5.params=
-comment5.target=double\ getZ()
-numComments=6
+comment5.target=double\ getY()
+comment6.params=
+comment6.target=double\ getZ()
+numComments=7
