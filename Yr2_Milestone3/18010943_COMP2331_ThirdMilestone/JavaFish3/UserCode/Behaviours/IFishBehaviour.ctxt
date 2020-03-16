@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ Behaviour()
+comment0.text=\r\n\ Method\ Behaviour\r\n\ enacts\ the\ fishes\ behaviour\r\n
+comment1.params=
+comment1.target=UserCode.Vector3\ getPosition()
+comment1.text=\r\n\ Method\ getPosition\r\n\r\n\ @return\ Position\ of\ fish\r\n
+comment2.params=
+comment2.target=UserCode.Vector3\ getOrientation()
+comment2.text=\r\n\ Method\ getOrientation\r\n\r\n\ @return\ Orientation\ of\ fish\r\n
+comment3.params=position\ orientation
+comment3.target=void\ setVectors(UserCode.Vector3,\ UserCode.Vector3)
+comment3.text=\r\n\ Method\ setVectors\r\n\r\n\ @param\ Position\ of\ fish\r\n\ @param\ Orientation\ of\ fish\r\n
+numComments=4

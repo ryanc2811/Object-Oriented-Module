@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=model\ tex\ scale
+comment0.target=Framework.Interfaces.IDisplayObject\ createDisplayObject(java.lang.String,\ java.lang.String,\ double)
+comment0.text=\r\n\ Method\ createDisplayObject\r\n\r\n\ @param\ model\ location\ of\ the\ model\r\n\ @param\ tex\ location\ of\ the\ texture\r\n\ @param\ scale\ scale\ if\ the\ display\ object\r\n\ @return\ IDisplayObject\r\n
+numComments=1

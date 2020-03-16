@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=position
+comment0.target=void\ position(UserCode.Vector3)
+comment0.text=\r\n\ METHOD\:\ set\ the\ IDisplayObject\ position\ along\ x,y,z\ axes\r\n\ @param\ position\ the\ position\ in\ the\ 3D\ world\r\n
+comment1.params=
+comment1.target=UserCode.Vector3\ position()
+comment2.params=orientation
+comment2.target=void\ orientation(UserCode.Vector3)
+comment2.text=\r\n\ METHOD\:\ rotate\ the\ IDisplayObject\ about\ x,y,z\ axes\r\n\ @param\ xOrientation\ double\ giving\ the\ new\ orientation\ about\ x\ axis.\r\n\ @param\ yOrientation\ double\ giving\ the\ new\ orientation\ about\ y\ axis.\r\n\ @param\ zOrientation\ double\ giving\ the\ new\ orientation\ about\ z\ axis.\r\n
+comment3.params=
+comment3.target=UserCode.Vector3\ orientation()
+numComments=4

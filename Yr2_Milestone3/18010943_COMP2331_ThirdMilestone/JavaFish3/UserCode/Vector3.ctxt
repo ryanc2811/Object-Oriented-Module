@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Vector3()
+comment0.text=\r\n\ Vector3\ Constructor\r\n\r\n
+comment1.params=x\ y\ z
+comment1.target=Vector3(double,\ double,\ double)
+comment1.text=\r\n\ Vector3\ Constructor\r\n\r\n\ @param\ x\ x\ value\r\n\ @param\ y\ value\r\n\ @param\ z\ value\r\n
+comment2.params=x\ y\ z
+comment2.target=void\ setValue(double,\ double,\ double)
+comment2.text=\r\n\ Method\ setValue\r\n\r\n\ @param\ x\ value\r\n\ @param\ y\ value\r\n\ @param\ z\ value\r\n
+comment3.params=
+comment3.target=double\ getX()
+comment3.text=\r\n\ Method\ getX\r\n\r\n\ @return\ x\ value\r\n
+comment4.params=
+comment4.target=double\ getY()
+comment4.text=\r\n\ Method\ getY\r\n\r\n\ @return\ y\ value\r\n
+comment5.params=
+comment5.target=double\ getZ()
+comment5.text=\r\n\ Method\ getZ\r\n\r\n\ @return\ z\ value\r\n
+numComments=6

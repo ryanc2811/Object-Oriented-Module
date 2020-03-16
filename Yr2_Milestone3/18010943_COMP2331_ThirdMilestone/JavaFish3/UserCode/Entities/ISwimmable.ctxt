@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=behaviour
+comment0.target=void\ receiveJob(UserCode.Behaviours.IFishBehaviour)
+comment0.text=\r\n\ Method\ receiveJob\r\n\r\n\ @param\ behaviour\ receive\ the\ behaviour\ related\ to\ this\ object\r\n
+numComments=1

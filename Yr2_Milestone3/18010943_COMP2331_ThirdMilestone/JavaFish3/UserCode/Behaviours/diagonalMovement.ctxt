@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=diagonalMovement()
+comment1.params=pPosition\ pOrientation
+comment1.target=void\ setVectors(UserCode.Vector3,\ UserCode.Vector3)
+comment1.text=\r\n\ Method\ setVectors\r\n\r\n\ @param\ pPosition\ Position\ of\ the\ fish\r\n\ @param\ pOrientation\ Orientation\ of\ the\ fish\r\n
+comment2.params=
+comment2.target=UserCode.Vector3\ getPosition()
+comment2.text=\r\n\ Method\ getPosition\r\n\r\n\ @return\ Position\ if\ the\ fish\r\n
+comment3.params=
+comment3.target=UserCode.Vector3\ getOrientation()
+comment3.text=\r\n\ Method\ getOrientation\r\n\r\n\ @return\ Orientation\ of\ the\ fish\r\n
+comment4.params=
+comment4.target=void\ Behaviour()
+comment4.text=\r\n\ Method\ Behaviour\r\n\ Enacts\ the\ diagonal\ movement\ behaviour\r\n
+numComments=5

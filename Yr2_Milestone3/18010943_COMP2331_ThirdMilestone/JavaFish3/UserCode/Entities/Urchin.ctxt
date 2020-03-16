@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=world\ displayObject\ Position\ Orientation
+comment0.target=void\ spawn(Framework.Interfaces.IWorld,\ Framework.Interfaces.IDisplayObject,\ UserCode.Vector3,\ UserCode.Vector3)
+comment0.text=\r\n\ Method\ spawn\r\n\ Implementation\ of\ ISpawnable-Spawns\ the\ ISpawnable\ Object\ into\ the\ 3D\ world\r\n\ @param\ world\ For\ spawning\ the\ Entity\ into\ the\ 3D\ world\r\n\ @param\ displayObject\ for\ storing\ the\ associated\ DisplayObject\r\n\ @param\ Position\ for\ storing\ objects\ initial\ Position\r\n\ @param\ Orientation\ Vector3\ for\ storing\ objects\ initial\ Orientation\r\n
+comment1.params=
+comment1.target=boolean\ Destroy()
+comment1.text=\r\n\ Method\ Destroy\r\n\r\n\ @return\ destroy\ boolean\r\n
+comment2.params=behaviour
+comment2.target=void\ receiveJob(UserCode.Behaviours.IFishBehaviour)
+comment2.text=\r\n\ Method\ receiveJob\r\n\r\n\ @param\ behaviour\ receive\ the\ behaviour\ related\ to\ this\ object\r\n
+comment3.params=
+comment3.target=void\ Behaviour()
+comment3.text=\r\n\ Method\ Behaviour\r\n\ Behaviour\ of\ the\ urchin\r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ Method\ update\r\n\r\n
+numComments=5

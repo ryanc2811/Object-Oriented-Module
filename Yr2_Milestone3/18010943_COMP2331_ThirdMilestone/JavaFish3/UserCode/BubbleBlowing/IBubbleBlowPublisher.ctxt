@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=BL
+comment0.target=void\ Subscribe(IBubbleBlowListener)
+comment0.text=\r\n\ METHOD\:\ Subscribe\ a\ new\ listener\ for\ bubble\ events\r\n\r\n\ @param\ \ BL\ \ a\ reference\ to\ the\ listener\ that\ is\ being\ subscribed\r\n
+comment1.params=BL
+comment1.target=void\ Unsubscribe(IBubbleBlowListener)
+comment1.text=\r\n\ METHOD\:\ Unsubscribe\ a\ new\ listener\ for\ bubble\ events\r\n\r\n\ @param\ \ BL\ \ a\ reference\ to\ the\ listener\ that\ is\ being\ unsubscribed\r\n
+numComments=2

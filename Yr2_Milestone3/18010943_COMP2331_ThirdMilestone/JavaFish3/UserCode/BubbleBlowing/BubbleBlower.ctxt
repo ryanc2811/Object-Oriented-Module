@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BubbleBlower()
+comment0.text=\r\n\ BubbleBlower\ Constructor\r\n\r\n
+comment1.params=BH
+comment1.target=void\ Initialize(IBubbleHandler)
+comment1.text=\r\n\ Method\ Initialize\r\ninitalise\ the\ BubbleBlower\ by\ passing\ the\ referece\ of\ IBubbleHandler\ from\ simulation\r\n\ @param\ BH\ IBubbleHandler\ reference\ to\ the\ BubbleHandler\ class\r\n
+comment2.params=Position
+comment2.target=void\ BlowBubble(UserCode.Vector3)
+comment2.text=\r\n\ Method\ BlowBubble\r\n\r\n\ @param\ Position\ the\ position\ of\ the\ bubble\r\n
+numComments=3
