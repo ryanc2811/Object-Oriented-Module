@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.Double[]\ position()
+comment1.params=
+comment1.target=java.lang.Double[]\ orientation()
+comment2.params=
+comment2.target=Renderable()
+comment2.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ Token\r\n\ \r\n\ All\ fields\ take\ on\ default\ values\:\ token\ depicts\ a\ 'JavaFish',\ located\ at\ 1,1,1,\ facing\ left.\r\n
+comment3.params=tex
+comment3.target=Renderable(java.lang.String)
+comment3.text=\r\n\ Constructor\ for\ objects\ of\ class\ Renderable\r\n\ \r\n\ User\ defines\ the\ image\ texture.\ \ All\ other\ fields\ are\ set\ to\ default.\r\n\ \r\n\ @param\ \ tex\ \ \ a\ String\ holding\ the\ path\ to\ the\ texture\ image\ file.\r\n
+comment4.params=mod\ tex\ size
+comment4.target=Renderable(java.lang.String,\ java.lang.String,\ double)
+comment4.text=\r\n\ Constructor\ for\ objects\ of\ class\ Renderable\r\n\ \r\n\ User\ defines\ the\ image\ texture\ and\ size.\ \ All\ other\ fields\ are\ set\ to\ default.\r\n\ \r\n\ @param\ \ mod\ \ \ a\ String\ holding\ the\ path\ to\ the\ texture\ image\ file.\r\n\ @param\ \ tex\ \ \ a\ String\ holding\ the\ path\ to\ the\ texture\ image\ file.\r\n\ @param\ \ size\ \ a\ double\ holding\ the\ scale\ of\ the\ object\ as\ a\ fraction\ (0.0\ -\ 1.0).\r\n
+comment5.params=coords
+comment5.target=void\ position(java.lang.Double[])
+comment5.text=\r\n\ METHOD\:\ Place\ the\ renderable\ at\ the\ given\ position\ within\ the\ aquarium\r\n\r\n\ @param\ \ coords\ \ \ the\ new\ position\ of\ the\ renderable\ as\ an\ array\ of\ three\ Doubles.\ \ The\ element\ values\ must\ be\ 0.0\ &lt\ value\ &lt\ 10.0.\r\n
+comment6.params=coords
+comment6.target=void\ orientation(java.lang.Double[])
+comment6.text=\r\n\ METHOD\:\ Place\ the\ renderable\ at\ the\ given\ orientation\ within\ the\ aquarium\r\n\r\n\ @param\ \ coords\ \ \ the\ new\ orientation\ (x,y,z)\ of\ the\ renderable\ as\ an\ array\ of\ three\ Doubles\r\n
+numComments=7

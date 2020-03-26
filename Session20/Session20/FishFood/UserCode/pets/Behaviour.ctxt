@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.Double[]\ position()
+comment1.params=
+comment1.target=java.lang.Double[]\ orientation()
+comment2.params=
+comment2.target=Behaviour()
+comment2.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ Behaviour\ (only\ ever\ called\ from\ subclass).\r\n\ \r\n
+comment3.params=renderable\ posn\ angle
+comment3.target=void\ Initialise(IRenderable,\ java.lang.Double[],\ java.lang.Double[])
+comment3.text=\r\n\ METHOD\:\ Initialise\ fields\ of\ the\ IBehaviour\r\n\ \r\n\ @param\ renderable\ a\ reference\ to\ the\ associated\ Renderable\ instance\r\n\ @param\ posn\ a\ Double[3]\ that\ gives\ the\ x,y,z\ position\ coordinates\ of\ the\ associated\ Renderable\ instance\r\n\ @param\ angle\ a\ Double[3]\ that\ gives\ the\ orientation\ about\ x,y,z\ axes\ of\ the\ associated\ Renderable\ instance\r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ METHOD\:\ update\ behaviour\ simulation\ for\ next\ frame.\r\n\ \r\n
+numComments=5

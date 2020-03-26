@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ update()
+comment0.text=\r\n\ Update\ all\ IBehaviours\ being\ managed,\ call\ on\ each\ pass\ through\ the\ update\ loop\r\n\ \r\n
+comment1.params=behaviour
+comment1.target=void\ AddBehaviour(IBehaviour)
+numComments=2

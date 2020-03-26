@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RenderableTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ RenderableTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testCondition1()
+comment3.text=\r\n\ METHOD\:\ Test\ condition\ 1\:\r\n\ position()\:\ values\ of\ coords[]\ get\ stored\ into\ relevant\ fields.\r\n\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ METHOD\:\ Test\ condition\ 2\:\r\n\ position()\:\ throws\ an\ exception\ when\ values\ of\ coords[]\ are\ out\ of\ range.\r\n\r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ METHOD\:\ Test\ condition\ 3\:\r\n\ position()\:\ coords\ is\ ignored\ if\ null.\r\n\r\n
+comment6.params=
+comment6.target=void\ testCondition4()
+comment6.text=\r\n\ METHOD\:\ Test\ condition\ 4\:\r\n\ orientation()\:\ values\ of\ coords[]\ get\ stored\ into\ relevant\ fields.\r\n\r\n
+comment7.params=
+comment7.target=void\ testCondition5()
+comment7.text=\r\n\ METHOD\:\ Test\ condition\ 5\:\r\n\ orientation()\:\ coords\ is\ ignored\ if\ null.\r\n\r\n
+numComments=8

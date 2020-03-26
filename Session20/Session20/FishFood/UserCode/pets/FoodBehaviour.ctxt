@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FoodBehaviour()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FoodBehaviour\r\n
+comment1.params=
+comment1.target=void\ update()
+comment1.text=\r\n\ METHOD\:\ update\ behaviour\ simulation\ for\ next\ frame.\r\n\ Food\ just\ moves\ downwards...\r\n\ \r\n
+numComments=2

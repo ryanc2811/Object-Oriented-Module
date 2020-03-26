@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ newFood()
+comment0.text=\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DEPRECATED\:\ newFood\ is\ for\ testing\ only\r\n
+comment1.params=
+comment1.target=FoodMgr()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ FoodMgr\r\n
+comment2.params=world
+comment2.target=void\ update(env3d.Env)
+comment2.text=\r\n\ Update\ the\ FoodMgr\ -\ must\ be\ called\ on\ each\ pass\ thru\ update\ loop\r\n
+comment3.params=mouseVal
+comment3.target=void\ onMouse(int[])
+comment3.text=\r\n\ Method\ to\ handle\ a\ mouse\ input\r\n\ \r\n
+numComments=4

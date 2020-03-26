@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=rqdClass\ renderable\ posn\ angle
+comment0.target=IBehaviour\ create(java.lang.Class,\ IRenderable,\ java.lang.Double[],\ java.lang.Double[])
+comment0.text=\r\n\ Create\ a\ new\ behaviour,\ add\ it\ to\ the\ managed\ list,\ and\ return\ a\ reference\ to\ it.\r\n\r\n\ @param\ \ rqdClass\ the\ implementation\ type\ of\ IBehaviour\ to\ be\ instantiated\r\n\ @param\ \ renderable\ \ \ a\ reference\ to\ the\ renderable\ that\ the\ behaviour\ is\ for\r\n\ @param\ \ posn\ \ \ \ \ a\ Double[3]\ that\ gives\ x,y,z\ coords\ of\ renderable\r\n\ @param\ \ angle\ \ \ \ a\ Double[3]\ that\ gives\ orientation\ of\ renderable\ about\ x,y,z\r\n\ \r\n\ @return\ IBehaviour\ when\ new\ behaviour\ is\ successfully\ created.\r\n
+numComments=1

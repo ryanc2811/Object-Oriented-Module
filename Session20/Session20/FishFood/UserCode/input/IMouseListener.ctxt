@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=mouseVal
+comment0.target=void\ onMouse(int[])
+comment0.text=\r\n\ Method\ to\ handle\ a\ mouse\ event\r\n\ \r\n
+numComments=1
