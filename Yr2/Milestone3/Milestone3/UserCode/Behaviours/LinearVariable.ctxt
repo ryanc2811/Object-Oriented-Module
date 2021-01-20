@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LinearVariable()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ LinearVariable\r\n
+comment1.params=value\ speed\ minimum\ maximum
+comment1.target=void\ initialise(double,\ double,\ double,\ double)
+comment1.text=\r\n\ METHOD\:\ initialise\ movement\ behaviour\ according\ to\ needs.\r\n\ \r\n\ @param\ \ value\ \ \ \ the\ initial\ value\ of\ the\ variable.\r\n\ @param\ \ speed\ \ \ \ the\ step\ size\ that\ the\ variable\ should\ be\ incremented/decremented\ by.\r\n\ @param\ \ minimum\ \ the\ lower\ boundary\ value\ for\ the\ variable.\r\n\ @param\ \ maximum\ \ the\ upper\ boundary\ value\ for\ the\ variable.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ METHOD\:\ change\ to\ variable\ for\ next\ frame\r\n\ \r\n
+numComments=3

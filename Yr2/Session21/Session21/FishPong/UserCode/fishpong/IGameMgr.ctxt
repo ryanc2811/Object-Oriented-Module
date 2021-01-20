@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=world
+comment0.target=void\ update(env3d.Env)
+comment0.text=\r\n\ Update\ the\ IGameMgr\ -\ must\ be\ called\ on\ each\ pass\ thru\ update\ loop\r\n
+numComments=1

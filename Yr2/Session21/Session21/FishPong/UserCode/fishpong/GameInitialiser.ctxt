@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=keys\ thingBehaviour
+comment0.target=GameInitialiser(UserCode.input.IInputPublisher,\ UserCode.pets.IBehaviourMgr)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameInitialiser\r\n
+comment1.params=world
+comment1.target=void\ Initialise(env3d.Env)
+comment2.params=
+comment2.target=UserCode.pets.IBehaviour\ GetPaddle()
+numComments=3

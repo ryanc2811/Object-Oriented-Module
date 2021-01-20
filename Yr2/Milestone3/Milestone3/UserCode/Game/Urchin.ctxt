@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Urchin()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Urchin\r\n
+comment1.params=factory\ world\ speed\ xPosn\ yPosn\ zPosn\ xOrientation\ yOrientation\ zOrientation
+comment1.target=void\ spawn(UserCode.ObjectCreation.IUpdatableFactory,\ Framework.Interfaces.IWorld,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment1.text=\r\n\ METHOD\:\ build\ and\ spawn\ an\ ISpawnable\ at\ the\ given\ position/orientation,\ of\ the\ given\ IWorld.\r\n\ \r\n\ @param\ \ factory\ \ \ \ \ \ IUpdatableFactory\ for\ object\ creation.\r\n\ @param\ \ world\ \ \ \ \ \ \ \ the\ IWorld.\r\n\ @param\ \ speed\ \ \ \ \ \ \ \ the\ initial\ speed\ of\ the\ spawnable\ when\ spawned.\r\n\ @param\ \ xPosn\ \ \ \ \ \ \ \ double\ giving\ the\ initial\ position\ along\ the\ x\ axis.\r\n\ @param\ \ yPosn\ \ \ \ \ \ \ \ double\ giving\ the\ initial\ position\ along\ the\ y\ axis.\r\n\ @param\ \ zPosn\ \ \ \ \ \ \ \ double\ giving\ the\ initial\ position\ along\ the\ z\ axis.\r\n\ @param\ \ xOrientation\ double\ giving\ the\ initial\ orientation\ about\ x\ axis.\r\n\ @param\ \ yOrientation\ double\ giving\ the\ initial\ orientation\ about\ y\ axis.\r\n\ @param\ \ zOrientation\ double\ giving\ the\ initial\ orientation\ about\ z\ axis.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ METHOD\:\ change\ to\ Spawnable\ for\ next\ frame\r\n
+numComments=3

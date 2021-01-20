@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DumbVariable()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ DummyVariable\r\n
+comment1.params=value
+comment1.target=void\ initialise(double)
+comment1.text=\r\n\ METHOD\:\ initialise\ (set)\ the\ variable.\r\n\ \r\n\ @param\ \ value\ \ \ \ the\ value\ of\ the\ variable.\r\n
+comment2.params=
+comment2.target=void\ WingardiumLeviosar()
+comment2.text=\r\n\ METHOD\:\ to\ levitate\ random\ items\r\n
+numComments=3

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=inputVal
+comment0.target=void\ onInput(int[])
+comment0.text=\r\n\ Method\ to\ handle\ an\ input\ event\r\n\ \r\n
+numComments=1

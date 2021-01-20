@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=World
+comment0.target=void\ Initialise(env3d.Env)
+comment1.params=
+comment1.target=UserCode.pets.IBehaviour\ GetPaddle()
+numComments=2

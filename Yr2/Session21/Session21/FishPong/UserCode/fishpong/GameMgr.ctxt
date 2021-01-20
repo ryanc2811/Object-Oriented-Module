@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=thingBehaviour\ ballListener\ GI
+comment0.target=GameMgr(UserCode.pets.IBehaviourMgr,\ INewBallListener,\ IGameInitialiser)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameMgr\r\n
+comment1.params=world
+comment1.target=void\ update(env3d.Env)
+comment1.text=\r\n\ Update\ the\ GameMgr\ -\ must\ be\ called\ on\ each\ pass\ thru\ update\ loop\r\n
+numComments=2

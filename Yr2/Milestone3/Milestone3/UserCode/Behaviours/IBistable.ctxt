@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=initialStateValue\ otherStateValue
+comment0.target=void\ initialise(double,\ double)
+comment0.text=\r\n\ METHOD\:\ initialise\ bistable\ behaviour\ according\ to\ needs.\r\n\ Initially,\ the\ bistable\ is\ set\ to\ the\ initialStateValue.\ \ An\ external\ mechanism\ triggers\ a\ state\ change.\r\n\ \r\n\ \r\n\ @param\ \ defaultStateValue\ \ \ \ the\ default\ state\ value.\r\n\ @param\ \ otherStateValue\ \ \ \ \ \ the\ other\ state\ value.\r\n
+numComments=1

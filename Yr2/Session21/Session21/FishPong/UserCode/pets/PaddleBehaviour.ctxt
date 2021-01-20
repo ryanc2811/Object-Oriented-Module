@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PaddleBehaviour()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PaddleBehaviour\r\n\ \r\n\ @param\ rhs\ \ a\ boolean\ that\ is\ true\ if\ paddle\ is\ to\ be\ on\ the\ right\ side\ of\ display\r\n
+comment1.params=
+comment1.target=void\ update()
+comment1.text=\r\n\ METHOD\:\ update\ behaviour\ simulation\ for\ next\ frame.\r\n\ Paddle\ just\ moves\ upwards\ and\ downwards,\ as\ per\ keyboard\ request...\r\n\ \r\n
+comment2.params=inputVal
+comment2.target=void\ onInput(int[])
+comment2.text=\r\n\ Method\ to\ handle\ a\ keyboard\ input\ (IInputListener)\r\n\ \r\n
+comment3.params=
+comment3.target=com.jme3.math.Vector3f\ position()
+comment3.text=\r\n\ Method\ to\ return\ the\ position\ as\ a\ jme3\ Vector3f\r\n\ \r\n\ @return\ the\ position\ as\ a\ Vector3f\r\n
+numComments=4

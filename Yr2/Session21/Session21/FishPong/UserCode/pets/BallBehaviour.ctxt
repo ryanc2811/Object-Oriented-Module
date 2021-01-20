@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BallBehaviour()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BallBehaviour\r\n
+comment1.params=
+comment1.target=void\ update()
+comment1.text=\r\n\ METHOD\:\ update\ behaviour\ simulation\ for\ next\ frame.\r\n\ Food\ just\ moves\ downwards\ and\ settles\ at\ bottom...\r\n\ \r\n
+comment2.params=collider
+comment2.target=void\ addICollider(ICollider)
+comment2.text=\r\n\ Method\ to\ assign\ an\ ICollider\r\n\ \r\n
+comment3.params=thisPosn\ otherPosn
+comment3.target=void\ collide(com.jme3.math.Vector3f,\ com.jme3.math.Vector3f)
+comment3.text=\r\n\ Method\ to\ check\ for\ and\ react\ to\ a\ collision.\r\n\ Collision\ occurs\ when\ other\ object\ is\ within\ 0.1\ units\ of\ this\ object.\r\n\ \r\n
+numComments=4

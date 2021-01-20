@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FishInvaders()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FishInvaders\r\n
+comment1.params=factory\ world\ input\ spawnFactory
+comment1.target=void\ create(UserCode.ObjectCreation.IUpdatableFactory,\ Framework.Interfaces.IWorld,\ UserCode.InputHandling.IInputHandler,\ ISpawnableFactory)
+comment1.text=\r\n\ METHOD\:\ Create\ the\ game\ scene.\r\n\ \r\n\ @param\ factory\ an\ IUpdatableFactory,\ needed\ for\ creating\ ISpawnables\ as\ IUpdatables.\r\n\ @param\ world\ an\ IWorld,\ needed\ to\ spawn\ ISpawnables.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ METHOD\:\ change\ to\ IUpdatable\ for\ next\ frame\r\n
+numComments=3

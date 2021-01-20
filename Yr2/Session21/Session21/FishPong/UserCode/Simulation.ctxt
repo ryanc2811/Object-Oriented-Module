@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ METHOD\:\ Static\ Main\ method\ used\ for\ entry-point\r\n\r\n
+comment1.params=
+comment1.target=Simulation()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Simulation\r\n
+numComments=2

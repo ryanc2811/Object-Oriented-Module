@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BistableTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ BistableTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testCondOne()
+comment3.text=\r\n\ Test\ condition\ 1\:\ Check\ normal\ functioning\:\ does\ nothing\ when\ update()\ called\ if\ no\ event\ has\ occurred.\r\n\ \r\n\ Setting\ state0\ \=\ 0.0,\ State1\ \=\ 1.0.\r\n\r\n
+comment4.params=
+comment4.target=void\ testCondTwo()
+comment4.text=\r\n\ Test\ condition\ 2\:\ Check\ that\ update()\ responds\ to\ an\ event.\r\n\ We're\ going\ to\ try\ setting\ an\ initialCounterValue\ to\ -1\ -\ it\ should\ be\ ignored\ and\ default\ to\ zero.\r\n\r\n
+numComments=5

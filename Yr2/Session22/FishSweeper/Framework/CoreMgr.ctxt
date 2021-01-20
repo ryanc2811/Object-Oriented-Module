@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CoreMgr()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Core\r\n
+comment1.params=
+comment1.target=void\ createWorld()
+comment1.text=\r\n\ METHOD\:\ create\ and\ initialise\ the\ environment\ (aka\ 'world')\r\n\r\n
+comment2.params=
+comment2.target=void\ destroyWorld()
+comment2.text=\r\n\ METHOD\:\ destroy\ the\ 3D\ world.\r\n\ Although\ there\ is\ a\ garbage-collector\ in\ Java,\ the\ world\ has\ to\ be\ destroyed\ with\ 'destroyWorld'\r\n\ in\ order\ to\ close-down\ your\ simulation-loop\ cleanly.\r\n\r\n
+comment3.params=
+comment3.target=void\ updateWorld()
+comment3.text=\r\n\ Apply\ all\ updates\ to\ the\ environment.\r\n\ This\ must\ be\ called\ at\ the\ end\ of\ each\ pass\ through\ the\ simulation\ loop.\r\n\r\n
+comment4.params=token
+comment4.target=void\ addRenderable(IRenderable)
+comment4.text=\r\n\ Add\ a\ renderable\ object\ to\ the\ world.\r\n\ \r\n\ @param\ \ \ token\ \ \ an\ object\ of\ type\ Renderable\ that\ is\ to\ be\ displayed\ in\ the\ virtual\ world.\r\n
+comment5.params=token
+comment5.target=void\ removeRenderable(IRenderable)
+comment5.text=\r\n\ Remove\ a\ renderable\ object\ from\ the\ world.\r\n\ \r\n\ @param\ \ \ token\ \ \ an\ object\ of\ type\ Renderable\ that\ is\ to\ be\ removed\ from\ the\ virtual\ world.\r\n
+comment6.params=
+comment6.target=env3d.Env\ world()
+comment6.text=\r\n\ Accessor\ for\ the\ Env3D\ world\ object\r\n\ \r\n\ @return\ \ the\ Env3D\ world\ object\r\n
+numComments=7

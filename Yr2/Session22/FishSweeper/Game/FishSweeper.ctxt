@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=core\ input
+comment0.target=FishSweeper(Framework.ICoreMgr,\ Mouse.IInputHandler)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FishSweeper\r\n
+comment1.params=mouseVal
+comment1.target=void\ onMouse(int[])
+comment1.text=\r\n\ Method\ to\ handle\ a\ mouse\ input\ (IMouseListener)\r\n\ \r\n
+comment2.params=
+comment2.target=void\ populate()
+comment2.text=\r\n\ METHOD\:\ Populate\ the\ scene\ with\ eight\ targets.\r\n\ The\ eight\ targets\ are\ all\ located\ at\ y\=5,\ and\ from\ x\=1.5\ to\ x\=8.5.\r\n\r\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\r\n\ METHOD\:\ Run\ the\ simulation\ loop.\ \ User\ presses\ escape\ to\ exit.\r\n\r\n
+numComments=4

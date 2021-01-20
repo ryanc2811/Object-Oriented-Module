@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=env3d.Env\ createWorld()
+comment0.text=\r\n\ METHOD\:\ create\ and\ initialise\ the\ environment\ (aka\ 'world')\r\n\r\n\ @return\ \ \ \ \ \ the\ 'world',\ once\ it\ has\ been\ created.\r\n
+comment1.params=
+comment1.target=void\ destroyWorld()
+comment1.text=\r\n\ METHOD\:\ destroy\ the\ 3D\ world.\r\n\ Although\ there\ is\ a\ garbage-collector\ in\ Java,\ the\ world\ has\ to\ be\ destroyed\ with\ 'destroyWorld'\r\n\ in\ order\ to\ close-down\ your\ simulation-loop\ cleanly.\r\n\r\n
+comment2.params=
+comment2.target=void\ updateWorld()
+comment2.text=\r\n\ Apply\ all\ updates\ to\ the\ environment.\r\n\ This\ must\ be\ called\ at\ the\ end\ of\ each\ pass\ through\ the\ simulation\ loop.\r\n\r\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=coords
+comment0.target=void\ position(java.lang.Double[])
+comment0.text=\r\n\ METHOD\:\ Place\ the\ token\ at\ the\ given\ position\ within\ the\ aquarium\r\n\r\n\ @param\ \ coords\ \ \ the\ new\ position\ (x,y,z)\ of\ the\ token\ as\ an\ array\ of\ three\ Doubles.\ \ The\ element\ values\ must\ be\ 0.0\ &lt\ value\ &lt\ 10.0.\r\n
+comment1.params=coords
+comment1.target=void\ orientation(java.lang.Double[])
+comment1.text=\r\n\ METHOD\:\ Place\ the\ token\ at\ the\ given\ orientation\ within\ the\ aquarium\r\n\r\n\ @param\ \ coords\ \ \ the\ new\ orientation\ (x,y,z)\ of\ the\ token\ as\ an\ array\ of\ three\ Doubles\r\n
+numComments=2

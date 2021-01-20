@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=com.jme3.math.Vector3f\ position()
+comment0.text=\r\n\ Method\ to\ return\ ICollider\ position\ as\ a\ jme3\ Vector3f\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ the\ ICollider's\ position\ \r\n
+numComments=1

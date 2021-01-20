@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=coords
+comment0.target=void\ position(java.lang.Double[])
+comment0.text=\r\n\ METHOD\:\ Place\ the\ token\ at\ the\ given\ position\ within\ the\ aquarium\r\n\r\n\ @param\ \ coords\ \ \ the\ new\ position\ of\ the\ token\ as\ an\ array\ of\ three\ Doubles.\ \ \r\n
+comment1.params=
+comment1.target=java.lang.Double[]\ position()
+comment1.text=\r\n\ METHOD\:\ Return\ the\ token's\ position\ within\ the\ aquarium\r\n\r\n\ @return\ \ \ the\ position\ of\ the\ token\ as\ an\ array\ of\ three\ Doubles.\r\n
+comment2.params=coords
+comment2.target=void\ orientation(java.lang.Double[])
+comment2.text=\r\n\ METHOD\:\ Place\ the\ token\ at\ the\ given\ orientation\ within\ the\ aquarium\r\n\r\n\ @param\ \ coords\ \ \ the\ new\ orientation\ (x,y,z)\ of\ the\ token\ as\ an\ array\ of\ three\ Doubles\r\n
+comment3.params=scale
+comment3.target=void\ scale(java.lang.Double)
+comment3.text=\r\n\ METHOD\:\ Scale\ the\ token\ by\ the\ given\ multiplier\r\n\r\n\ @param\ \ scale\ \ \ the\ new\ scale\ of\ the\ token\ as\ a\ Double\r\n
+numComments=4

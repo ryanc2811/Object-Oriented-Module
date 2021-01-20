@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TokenFactory()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TokenFactory\r\n
+comment1.params=model\ texture\ posn\ angle\ scale
+comment1.target=IToken\ createToken(java.lang.String,\ java.lang.String,\ java.lang.Double[],\ java.lang.Double[],\ java.lang.Double)
+comment1.text=\r\n\ Create\ and\ return\ new\ IToken\ instance.\r\n\ \r\n\ @param\ \ \ model\ \ \ \ specifies\ the\ 3D\ model\ to\ be\ used\r\n\ @param\ \ \ texture\ \ specifies\ the\ texture\ to\ be\ used\r\n\ @param\ \ \ posn\ \ \ \ a\ Double[3]\ that\ gives\ the\ x,y,z\ location\ coords\r\n\ @param\ \ \ angle\ \ \ a\ Double[3]\ that\ gives\ the\ orietnation\ about\ the\ x,y,z\ axes\r\n\ @param\ \ \ scale\ \ \ a\ Double\ between\ 0.0\ and\ 1.0\ that\ specifies\ the\ size\ of\ the\ token\r\n\ \r\n\ @return\ \ the\ new\ IToken\r\n
+numComments=2

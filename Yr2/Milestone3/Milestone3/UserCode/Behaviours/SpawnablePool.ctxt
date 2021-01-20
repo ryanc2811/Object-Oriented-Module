@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=factory\ world\ X\ Y
+comment0.target=void\ initialise(UserCode.ObjectCreation.IUpdatableFactory,\ Framework.Interfaces.IWorld,\ IVariable,\ IVariable)
+comment0.text=\r\n\ METHOD\:\ initialise\ the\ ISpawnablePool.\r\n\ \r\n\ @param\ \ factory\ \ \ \ \ \ the\ IUpdatableFactory.\r\n\ @param\ \ world\ \ \ \ \ \ \ \ the\ IWorld.\r\n\ @param\ \ X\ \ \ \ \ \ \ \ \ \ \ \ an\ IVariable\ that\ will\ represent\ the\ spawn\ point\ along\ x\ axis,\ when\ it\ is\ time\ to\ spawn.\r\n\ @param\ \ Y\ \ \ \ \ \ \ \ \ \ \ \ an\ IVariable\ that\ will\ represent\ the\ spawn\ point\ along\ y\ axis,\ when\ it\ is\ time\ to\ spawn.\r\n
+numComments=1

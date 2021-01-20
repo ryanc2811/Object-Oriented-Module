@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=model\ texture\ posn\ angle\ scale
+comment0.target=IToken\ createToken(java.lang.String,\ java.lang.String,\ java.lang.Double[],\ java.lang.Double[],\ java.lang.Double)
+comment0.text=\r\n\ Create\ and\ return\ new\ IToken\ instance.\r\n\ \r\n\ @param\ \ \ model\ \ \ \ specifies\ the\ 3D\ model\ to\ be\ used\r\n\ @param\ \ \ texture\ \ specifies\ the\ texture\ to\ be\ used\r\n\ @param\ \ \ posn\ \ \ \ a\ Double[3]\ that\ gives\ the\ x,y,z\ location\ coords\r\n\ @param\ \ \ angle\ \ \ a\ Double[3]\ that\ gives\ the\ orietnation\ about\ the\ x,y,z\ axes\r\n
+numComments=1

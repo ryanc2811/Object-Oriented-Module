@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=value\ speed\ minimum\ maximum
+comment0.target=void\ initialise(double,\ double,\ double,\ double)
+comment0.text=\r\n\ METHOD\:\ initialise\ movement\ behaviour\ according\ to\ needs.\r\n\ \r\n\ @param\ \ value\ \ \ \ the\ initial\ value\ of\ the\ variable.\r\n\ @param\ \ speed\ \ \ \ the\ step\ size\ that\ the\ variable\ should\ be\ incremented/decremented\ by.\r\n\ @param\ \ minimum\ \ the\ lower\ boundary\ value\ for\ the\ variable.\r\n\ @param\ \ maximum\ \ the\ upper\ boundary\ value\ for\ the\ variable.\r\n
+numComments=1

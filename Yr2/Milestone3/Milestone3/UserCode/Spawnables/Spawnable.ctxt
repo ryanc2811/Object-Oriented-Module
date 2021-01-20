@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=displayObject\ xPosn\ yPosn\ zPosn\ xOrientation\ yOrientation\ zOrientation
+comment0.target=void\ spawn(Framework.Interfaces.IDisplayObject,\ UserCode.Behaviours.IVariable,\ UserCode.Behaviours.IVariable,\ UserCode.Behaviours.IVariable,\ UserCode.Behaviours.IVariable,\ UserCode.Behaviours.IVariable,\ UserCode.Behaviours.IVariable)
+comment0.text=\r\n\ METHOD\:\ spawn\ at\ the\ given\ position/orientation\r\n\ @param\ displayObject\ the\ IDisplayObject\ to\ represent\ the\ spawnable.\r\n\ @param\ xPosn\ IVariable\ controlling\ the\ position\ along\ y\ axis.\r\n\ @param\ yPosn\ IVariable\ controlling\ the\ position\ along\ y\ axis.\r\n\ @param\ zPosn\ IVariable\ controlling\ position\ along\ z\ axis.\r\n\ @param\ xOrientation\ IVariable\ controlling\ the\ orientation\ about\ x\ axis.\r\n\ @param\ yOrientation\ IVariable\ controlling\ the\ orientation\ about\ y\ axis.\r\n\ @param\ zOrientation\ IVariable\ controlling\ orientation\ about\ z\ axis.\r\n
+comment1.params=behaviour
+comment1.target=void\ addBehaviour(Framework.Interfaces.IUpdatable)
+comment1.text=\r\n\ METHOD\:\ add\ a\ behaviour\ (as\ an\ IUpdatable)\r\n\ \r\n\ @param\ behaviour\ the\ behaviour\ to\ be\ added\ (as\ an\ IUpdatabale)\r\n
+comment2.params=
+comment2.target=Framework.Interfaces.IDisplayObject\ getDisplayObject()
+comment2.text=\r\n\ METHOD\:\ return\ a\ reference\ to\ the\ IDisplayObject\r\n\ \r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ METHOD\:\ change\ to\ Spawnable\ for\ next\ frame\r\n
+comment4.params=v
+comment4.target=UserCode.Behaviours.IVariable\ assign(UserCode.Behaviours.IVariable)
+numComments=5

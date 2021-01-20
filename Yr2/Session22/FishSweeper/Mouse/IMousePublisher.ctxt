@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=l
+comment0.target=void\ subscribe(mouse.IMouseListener)
+comment0.text=\r\n\ METHOD\:\ Subscribe\ a\ new\ listener\ for\ mouse\ events\r\n\r\n\ @param\ \ l\ \ \ a\ reference\ to\ the\ listener\ that\ is\ being\ subscribed\r\n
+comment1.params=l
+comment1.target=void\ unsubscribe(mouse.IMouseListener)
+comment1.text=\r\n\ METHOD\:\ Unsubscribe\ a\ listener\r\n\r\n\ @param\ \ l\ \ \ a\ reference\ to\ the\ listener\ that\ is\ being\ unsubscribed\r\n
+numComments=2

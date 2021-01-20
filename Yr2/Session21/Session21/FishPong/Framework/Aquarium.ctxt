@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=x\ y\ z
+comment0.target=Aquarium(double,\ double,\ double)
+comment0.text=\r\n\ Constructor\r\n\r\n\ @param\ \ x\ \ \ width\ of\ type\ double\r\n\ @param\ \ y\ \ \ height\ of\ type\ double\r\n\ @param\ \ z\ \ \ depth\ of\ type\ double\r\n
+numComments=1

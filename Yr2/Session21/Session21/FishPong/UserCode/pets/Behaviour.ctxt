@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Behaviour()
+comment0.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ Behaviour\ (only\ ever\ called\ from\ subclass).\r\n\ \r\n
+comment1.params=token\ posn\ angle
+comment1.target=void\ Initialise(IToken,\ java.lang.Double[],\ java.lang.Double[])
+comment1.text=\r\n\ METHOD\:\ Initialise\ fields\ of\ the\ IBehaviour\r\n\ \r\n\ @param\ token\ a\ reference\ to\ the\ associated\ Token\ instance\r\n\ @param\ posn\ a\ Double[3]\ that\ gives\ the\ x,y,z\ position\ coordinates\ of\ the\ associated\ Token\ instance\r\n\ @param\ angle\ a\ Double[3]\ that\ gives\ the\ orientation\ about\ x,y,z\ axes\ of\ the\ associated\ Token\ instance\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ METHOD\:\ update\ behaviour\ simulation\ for\ next\ frame.\r\n\ \r\n
+numComments=3
