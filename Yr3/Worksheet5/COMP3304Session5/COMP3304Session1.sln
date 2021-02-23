@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COMP3304Session1", "COMP3304Session1\COMP3304Session1.csproj", "{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10C8AFBA-0AB6-43CD-81CB-A755F8C60CF6}"
+	ProjectSection(SolutionItems) = preProject
+		Backend\Backend.csproj = Backend\Backend.csproj
+		Backend\DataElement.cs = Backend\DataElement.cs
+		Backend\FactoryLocator.cs = Backend\FactoryLocator.cs
+		Backend\FormFactory.cs = Backend\FormFactory.cs
+		Backend\IFactory.cs = Backend\IFactory.cs
+		Backend\INoteImage.cs = Backend\INoteImage.cs
+		Backend\INotes.cs = Backend\INotes.cs
+		Backend\INoteText.cs = Backend\INoteText.cs
+		Backend\IService.cs = Backend\IService.cs
+		Backend\IServiceLocator.cs = Backend\IServiceLocator.cs
+		Backend\NoteData.cs = Backend\NoteData.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0681F993-62ED-4AF8-BB2D-69C22FB0C613}
+	EndGlobalSection
+EndGlobal
