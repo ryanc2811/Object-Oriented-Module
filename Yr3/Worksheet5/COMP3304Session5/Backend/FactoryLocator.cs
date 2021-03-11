@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Backend
 {
-    class FactoryLocator : IServiceLocator
+    public class FactoryLocator : IServiceLocator
     {
         private IDictionary<Type, IService> factories;
 

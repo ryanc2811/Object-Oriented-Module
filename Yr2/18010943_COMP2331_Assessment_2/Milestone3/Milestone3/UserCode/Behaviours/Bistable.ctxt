@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bistable()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bistable\r\n
+comment1.params=initialStateValue\ otherStateValue
+comment1.target=void\ initialise(double,\ double)
+comment1.text=\r\n\ METHOD\:\ initialise\ bistable\ behaviour\ according\ to\ needs.\r\n\ Initially,\ the\ bistable\ is\ set\ to\ the\ initialStateValue.\ \ An\ external\ mechanism\ triggers\ a\ state\ change.\r\n\ \r\n\ \r\n\ @param\ \ defaultStateValue\ \ \ \ the\ default\ state\ value.\r\n\ @param\ \ otherStateValue\ \ \ \ \ \ the\ other\ state\ value.\r\n
+comment2.params=data
+comment2.target=void\ onEvent(int[])
+comment2.text=\r\n\ Method\ to\ handle\ an\ event\ -\ this\ is\ what\ triggers\ a\ state\ change.\r\n\ \r\n\ @param\ data\ an\ array\ of\ integers\ containing\ the\ event\ data\ -\ we\ expect\ data[0]\ to\ signal\ the\ rqd\ state\ (0\ or\ 1).\r\n\ \r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ METHOD\:\ apply\ changes\ to\ variable\ for\ next\ frame\ -\ ie\ flip\ states\ if\ triggered.\r\n\ \r\n
+numComments=4

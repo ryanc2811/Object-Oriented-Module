@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=factory\ world\ input\ spawnFactory
+comment0.target=void\ create(ObjectCreation.IUpdatableFactory,\ Framework.Interfaces.IWorld,\ InputHandling.IInputHandler,\ Game.ISpawnableFactory)
+comment0.text=\r\n\ METHOD\:\ Create\ the\ game\ scene.\r\n\ \r\n\ @param\ factory\ an\ IUpdatableFactory,\ needed\ to\ create\ ISpawnables\ as\ IUpdatables.\r\n\ @param\ world\ an\ IWorld,\ needed\ to\ spawn\ ISpawnables.\r\n
+numComments=1

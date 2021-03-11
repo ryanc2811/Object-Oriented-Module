@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Backend/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Backend.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Backend/1.0.0": {
+      "type": "project",
+      "path": "../Backend/Backend.csproj",
+      "msbuildProject": "../Backend/Backend.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Backend >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ryanc\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj": {
+              "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

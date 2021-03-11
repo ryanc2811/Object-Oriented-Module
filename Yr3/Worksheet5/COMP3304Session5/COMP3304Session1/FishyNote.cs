@@ -123,6 +123,7 @@ namespace COMP3304Session1
             formIndex = pFormIndex;
 
             this.CollapseButton.Image = Image.FromFile(buttonImageData);
+            
         }
     }
 }

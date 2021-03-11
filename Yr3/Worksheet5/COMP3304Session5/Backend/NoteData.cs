@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace Backend
 {
-    class NoteData:INoteText, INotes, INoteImage
+    public class NoteData:INoteText, INotes, INoteImage
     {
         private IDictionary<int, DataElement> data;
 
@@ -16,6 +17,7 @@ namespace Backend
         {
             data = new Dictionary<int, DataElement>();
             imageNames = new List<string>(Directory.GetFiles(IMAGEPATH));
+            
         }
         #region INotes Interface
         public void AddNoteData(int index)
@@ -25,7 +27,7 @@ namespace Backend
             int randomImage = random.Next(0, imageNames.Count);
 
             //Add a new entry to the data dictionary
-            data.Add(index, new DataElement("",IMAGEPATH+imageNames[randomImage]));
+            data.Add(index, new DataElement("",imageNames[randomImage]));
         }
 
         public void RemoveNoteData(int index)

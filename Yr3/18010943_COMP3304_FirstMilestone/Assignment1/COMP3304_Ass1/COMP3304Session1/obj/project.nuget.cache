@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "85WMru96f/zcITyqZxFgw1W5l/q5dO5+h4gGhhwiNJgMEnNmVDOWWU1rY2dWo7rp/CrrWgr57RVTJ0dPWA+5Rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\ManipulationTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ryanc\\.nuget\\packages\\imageprocessor\\2.9.1\\imageprocessor.2.9.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ImageProcessor 2.9.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "ImageProcessor",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

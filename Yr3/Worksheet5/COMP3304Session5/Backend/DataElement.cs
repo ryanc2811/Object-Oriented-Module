@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Backend
 {
-    struct DataElement
+    public struct DataElement
     {
         public string NoteText { get; private set; }
         public string ImageData { get; private set; }

@@ -4,6 +4,16 @@
     "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\COMP3304Session1\\COMP3304Session1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj",
+        "projectName": "Backend",
+        "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\COMP3304Session1\\COMP3304Session1.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +37,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj": {
+                "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Worksheet5\\COMP3304Session5\\Backend\\Backend.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Feeder()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Feeder\r\n
+comment1.params=data
+comment1.target=void\ onEvent(int[])
+comment1.text=\r\n\ Method\ to\ handle\ an\ event\r\n\ \r\n\ @param\ data\ an\ array\ of\ integers\ containing\ the\ event\ data\r\n\ \r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ METHOD\:\ changes\ to\ Feeder\ for\ next\ frame\r\n
+comment3.params=speed\ xPosn\ yPosn\ zPosn\ xOrientation\ yOrientation\ zOrientation
+comment3.target=void\ spawn(double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment3.text=\r\n\ METHOD\:\ spawn\ an\ ISpawnable\ at\ the\ given\ position/orientation.\r\n\ \r\n\ @param\ \ speed\ \ \ \ \ \ \ \ the\ initial\ speed\ of\ the\ spawnable\ when\ spawned.\r\n\ @param\ \ xPosn\ \ \ \ \ \ \ \ double\ giving\ the\ initial\ position\ along\ the\ x\ axis.\r\n\ @param\ \ yPosn\ \ \ \ \ \ \ \ double\ giving\ the\ initial\ position\ along\ the\ y\ axis.\r\n\ @param\ \ zPosn\ \ \ \ \ \ \ \ double\ giving\ the\ initial\ position\ along\ the\ z\ axis.\r\n\ @param\ \ xOrientation\ double\ giving\ the\ initial\ orientation\ about\ x\ axis.\r\n\ @param\ \ yOrientation\ double\ giving\ the\ initial\ orientation\ about\ y\ axis.\r\n\ @param\ \ zOrientation\ double\ giving\ the\ initial\ orientation\ about\ z\ axis.\r\n
+numComments=4

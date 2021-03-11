@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "COMP3304Session1/1.0.0": {
+        "dependencies": {
+          "Backend": "1.0.0"
+        },
         "runtime": {
           "COMP3304Session1.dll": {}
+        }
+      },
+      "Backend/1.0.0": {
+        "runtime": {
+          "Backend.dll": {}
         }
       }
     }
   },
   "libraries": {
     "COMP3304Session1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backend/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

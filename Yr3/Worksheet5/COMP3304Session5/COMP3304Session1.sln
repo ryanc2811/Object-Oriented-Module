@@ -5,20 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COMP3304Session1", "COMP3304Session1\COMP3304Session1.csproj", "{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10C8AFBA-0AB6-43CD-81CB-A755F8C60CF6}"
-	ProjectSection(SolutionItems) = preProject
-		Backend\Backend.csproj = Backend\Backend.csproj
-		Backend\DataElement.cs = Backend\DataElement.cs
-		Backend\FactoryLocator.cs = Backend\FactoryLocator.cs
-		Backend\FormFactory.cs = Backend\FormFactory.cs
-		Backend\IFactory.cs = Backend\IFactory.cs
-		Backend\INoteImage.cs = Backend\INoteImage.cs
-		Backend\INotes.cs = Backend\INotes.cs
-		Backend\INoteText.cs = Backend\INoteText.cs
-		Backend\IService.cs = Backend\IService.cs
-		Backend\IServiceLocator.cs = Backend\IServiceLocator.cs
-		Backend\NoteData.cs = Backend\NoteData.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{3FF32660-2AA9-4154-B392-2D8CFB5CEB2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +17,10 @@ Global
 		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C94489-4C8F-4FB2-B6B5-6ACFE89539A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF32660-2AA9-4154-B392-2D8CFB5CEB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF32660-2AA9-4154-B392-2D8CFB5CEB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF32660-2AA9-4154-B392-2D8CFB5CEB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF32660-2AA9-4154-B392-2D8CFB5CEB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

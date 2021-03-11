@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=void\ initialise(double)
+comment0.text=\r\n\ METHOD\:\ initialise\ variable.\r\n\ \r\n\ @param\ \ value\ \ \ \ the\ initial\ value\ of\ the\ smart\ variable.\r\n
+numComments=1

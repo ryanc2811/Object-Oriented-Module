@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "COMP3304Session1/1.0.0": {
+        "dependencies": {
+          "Backend": "1.0.0",
+          "ImageProcessor": "2.9.1"
+        },
+        "runtime": {
+          "COMP3304Session1.dll": {}
+        }
+      },
+      "ImageProcessor/2.9.1": {
+        "runtime": {
+          "lib/net452/ImageProcessor.dll": {
+            "assemblyVersion": "2.9.1.225",
+            "fileVersion": "2.9.1.225"
+          }
+        }
+      },
+      "Backend/1.0.0": {
+        "runtime": {
+          "Backend.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "COMP3304Session1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImageProcessor/2.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QzYXsKGBdgAcxneFucxPcsMnCFr3VwZKZ09cPwVH6TzcgA2JWskfDPr3u6IyDsHRgX+Ju1rgQr+I2I5/wRbcog==",
+      "path": "imageprocessor/2.9.1",
+      "hashPath": "imageprocessor.2.9.1.nupkg.sha512"
+    },
+    "Backend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

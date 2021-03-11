@@ -1,0 +1,17 @@
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Worksheet5\COMP3304Session5\Backend\obj\Debug\Backend.csprojAssemblyReference.cache
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Worksheet5\COMP3304Session5\Backend\obj\Debug\Backend.csproj.CoreCompileInputs.cache
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Worksheet5\COMP3304Session5\Backend\bin\Debug\Backend.dll
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Worksheet5\COMP3304Session5\Backend\bin\Debug\Backend.pdb
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Worksheet5\COMP3304Session5\Backend\obj\Debug\Backend.dll
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Worksheet5\COMP3304Session5\Backend\obj\Debug\Backend.pdb
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\bin\Debug\Backend.dll
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\bin\Debug\Backend.pdb
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\bin\Debug\ImageProcessor.dll
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\bin\Debug\System.ValueTuple.dll
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\bin\Debug\ImageProcessor.xml
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\bin\Debug\System.ValueTuple.xml
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\obj\Debug\Backend.csprojAssemblyReference.cache
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\obj\Debug\Backend.csproj.CoreCompileInputs.cache
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\obj\Debug\Backend.csproj.CopyComplete
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\obj\Debug\Backend.dll
+C:\Users\ryanc\OneDrive\Documents\GitHub\Object-Oriented-Module\Yr3\Assignment1\COMP3304_Ass1\Backend\obj\Debug\Backend.pdb
