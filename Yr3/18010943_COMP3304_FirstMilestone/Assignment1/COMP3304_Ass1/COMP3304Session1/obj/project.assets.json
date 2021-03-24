@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\ManipulationTool.csproj",
+      "projectUniqueName": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\18010943_COMP3304_FirstMilestone\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\ManipulationTool.csproj",
       "projectName": "ManipulationTool",
-      "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\ManipulationTool.csproj",
+      "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\18010943_COMP3304_FirstMilestone\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\ManipulationTool.csproj",
       "packagesPath": "C:\\Users\\ryanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\obj\\",
+      "outputPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\18010943_COMP3304_FirstMilestone\\Assignment1\\COMP3304_Ass1\\COMP3304Session1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ryanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,8 +75,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Assignment1\\COMP3304_Ass1\\Backend\\Backend.csproj": {
-              "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\Assignment1\\COMP3304_Ass1\\Backend\\Backend.csproj"
+            "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\18010943_COMP3304_FirstMilestone\\Assignment1\\COMP3304_Ass1\\Backend\\Backend.csproj": {
+              "projectPath": "C:\\Users\\ryanc\\OneDrive\\Documents\\GitHub\\Object-Oriented-Module\\Yr3\\18010943_COMP3304_FirstMilestone\\Assignment1\\COMP3304_Ass1\\Backend\\Backend.csproj"
             }
           }
         }
